@@ -136,9 +136,11 @@ span{
 
 
     }
+    
     .card{
         height: 55vh;
         width: 80vw;
+        height: 55vh;
         display: flex;
         justify-content: center;
         align-items: center;
