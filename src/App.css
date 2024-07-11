@@ -137,6 +137,7 @@ span{
 
     }
     .card{
+        height: 55vh;
         width: 80vw;
         display: flex;
         justify-content: center;
