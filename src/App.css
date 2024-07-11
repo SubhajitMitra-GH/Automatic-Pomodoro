@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+    
+  }
+  
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(40, 42, 42);
+    
+}
+.card{
+    width: 40vw;
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: blue;
+    padding: 28px;
+    border-radius: 44px;
+    border: white 2px solid ;
+    
+   
+
+}
+h2{
+    border: 10px solid rgb(0, 255, 238);
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    font-weight: 900;
+    font-size: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    margin: 8px;
+    margin-bottom: 50px;
+    height: 6vh;
+    width: 12vh;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(0, 255, 81);
+    font-size: medium;
+    transition: all 200ms ease-in-out;
+}
+button:hover{
+    background-color: rgb(12, 200, 53);
+
+}
+h3{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    margin-left: 30px;
+   
+    
+}
+h3{
+    font-size: xx-large;
+    color: aliceblue;
+    
+}
+.ff{
+    display: none;
+    font-size: 25px;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius:20px ;
+
+}
+.Comp-text{
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+
+}
+.clk{
+    margin-top: 20px;
+}
+span{
+    color: red;
+    font-weight: 600;
+}
+@media(max-width:480px){
+    .container{
+        background-color: blue;
+        height:100vh;
+
+    }
+    .cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    .card{
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    h2{
+        
+        border: 10px solid rgb(0, 255, 238);
+    border-radius: 50%;
+        font-size: 70px;
+        height: 200px;
+        width: 200px;
+        
+    }
+    .Timer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .slider{
+        width: 65vw;
+    }
+    button{
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Pomodoro Timer/Pomodoro/dist"
+		},
+		{
+			"path": "../../Pomodoro Timer/Pomodoro/node_modules"
+		},
+		{
+			"path": "../../Pomodoro Timer/Pomodoro/public"
+		},
+		{
+			"path": "../../Pomodoro Timer/Pomodoro/src"
+		}
+	],
+	"settings": {}
+}
