@@ -131,11 +131,12 @@ const buttonClick2 = () => {
         {isRunning ? 'Stop' : 'Start'}
       </button>
       <button onClick={reset}>Reset</button>
+      <div className='sl'>
       <div className='slider'>
       <Slider value={remainingSeconds} reverse={true} max={isWork?(25*60):(10*60)} min={0}/>
       </div>
     
-
+      </div>
       </div>
       </div>
       </div>

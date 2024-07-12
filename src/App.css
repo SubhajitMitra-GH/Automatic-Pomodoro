@@ -55,9 +55,9 @@ h2{
     justify-content: center;
     margin: 15px;
 }
-.button{
-    display: flex;
-    flex-direction: column;
+.buttons{
+    
+    width: 22vw;
 }
 button{
     margin: 8px;
@@ -123,9 +123,9 @@ span{
     color: red;
     font-weight: 600;
 }
-@media(max-width:480px){
+@media(max-width:1434px){
     .container{
-        background-color: blue;
+        background-color: rgb(40, 42, 42);
         height:100vh;
 
     }
@@ -141,12 +141,13 @@ span{
     }
     
     .card{
-        height: 55vh;
-        width: 80vw;
+      
+        width: 75vw;
         height: 55vh;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: rgb(57, 57, 243)
         
         
     }
@@ -166,9 +167,23 @@ span{
 
     }
     .slider{
+        margin-left: 0;
         width: 65vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     button{
         margin-bottom: 20px;
+    }
+    .buttons{
+    
+        width: 80vw;
+    }
+    .sl{
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items:center ;
     }
 }
