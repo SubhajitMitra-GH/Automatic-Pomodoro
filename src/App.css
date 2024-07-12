@@ -20,13 +20,13 @@
     
 }
 .card{
-    width: 40vw;
+    width: 50vw;
     height: 40vh;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+   
     background-color: blue;
     padding: 28px;
     border-radius: 44px;
@@ -80,6 +80,7 @@ h3{
     padding-bottom: 5px;
 }
 .cont{
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,10 +130,12 @@ span{
 
     }
     .cont{
+        
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
 
 
     }
@@ -144,6 +147,7 @@ span{
         display: flex;
         justify-content: center;
         align-items: center;
+        
         
     }
     h2{
